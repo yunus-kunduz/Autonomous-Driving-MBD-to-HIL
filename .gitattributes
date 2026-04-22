@@ -12,3 +12,9 @@ src/02_HIL_System/STM32_Firmware/Core/** linguist-vendored=false
 src/Phase1_MBD/** linguist-language=MATLAB
 src/Phase1_MBD/** linguist-detectable=true
 src/Phase1_MBD/** linguist-documentation=false
+
+# STM32 Proje ve Konfigürasyon dosyalarını gizle
+*.ioc linguist-vendored
+*.list linguist-vendored
+*.map linguist-vendored
+**/Startup/** linguist-vendored
