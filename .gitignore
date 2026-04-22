@@ -1,0 +1,38 @@
+# --- STM32 & CubeIDE ---
+# Build artifacts
+**/Debug/
+**/Release/
+*.elf
+*.list
+*.map
+*.o
+*.d
+*.su
+*.launch
+.settings/
+
+# --- MATLAB & Simulink ---
+*.asv
+*.slxc
+*.mex*
+slprj/
+*.autosave
+**/work/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Simulation Logs ---
+*.log
+*.tmp
