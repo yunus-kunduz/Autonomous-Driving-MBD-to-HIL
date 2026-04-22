@@ -1,6 +1,10 @@
-# Kütüphane dosyalarını (Drivers/Middlewares) istatistiklerden hariç tut
-src/02_HIL_System/STM32_Firmware/Drivers/** linguist-vendored
-src/02_HIL_System/STM32_Firmware/Middlewares/** linguist-vendored
+# Tüm STM32 kütüphanelerini ve otomatik oluşturulan dosyaları istatistikten çıkar
+**/Drivers/** linguist-vendored
+**/Middlewares/** linguist-vendored
+**/Debug/** linguist-vendored
+**/Release/** linguist-vendored
 
-# Eğer MATLAB dosyalarını (Other) "MATLAB" olarak vurgulamak istersen
+# Sadece senin yazdığın Core klasörünü ve Python'ı öne çıkar
+src/02_HIL_System/STM32_Firmware/Core/** linguist-vendored=false
+*.py linguist-detectable=true
 *.m linguist-detectable=true
